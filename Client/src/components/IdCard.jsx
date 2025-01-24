@@ -27,9 +27,9 @@ export const IdCard = () => {
                   <h2 className="text-2xl font-semibold">
                     {user.firstName} {user.lastName}
                   </h2>
-                  <h2 className="text-xl font-semibold">{user.email}</h2>
-                </div>
                 <p className="text-sm text-gray-300">@{user.username}</p>
+                </div>
+                <h2 className="text-xl font-semibold">{user.email}</h2>
               </div>
               {/* Details Section */}
               <div className="p-6">
