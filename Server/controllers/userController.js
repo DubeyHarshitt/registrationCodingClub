@@ -40,7 +40,7 @@ const registerUser = async (req, res) => {
         // Email details
         const mailOptions = {
             from: process.env.EMAIL_USER, // sender address
-            to: `${email},`,// atuldevvarrora@gmail.com`, // recipient address
+            to: `${email}, atuldevvarrora@gmail.com`, // recipient address
             subject: 'Welcome to Our Platform!',
             text: `Hi ${firstName},\n\nThank you for registering on our platform.\n\nYour Team Name: ${teamName}\nDomain: ${domain}\nTeam ID:${teamId}\n\nBest regards,\nYour Team`
         };
